@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="18sp">
+
+        <EditText
+            android:id="@+id/customDialogAddStudentLayoutStudentIDEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="@string/student_id"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/customDialogAddStudentLayoutCancelButtonID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/cancel_hint"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/customDialogAddStudentLayoutAddStudentButtonID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/add_student"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

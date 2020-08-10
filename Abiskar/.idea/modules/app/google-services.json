@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "737014015308",
+    "firebase_url": "https://abiskar-c519c.firebaseio.com",
+    "project_id": "abiskar-c519c",
+    "storage_bucket": "abiskar-c519c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737014015308:android:a1c5441253868194699be9",
+        "android_client_info": {
+          "package_name": "com.edu.abiskar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737014015308-m3j5b5604u7saga6grf6c2smvv65n9jo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edu.abiskar",
+            "certificate_hash": "4d471d97f4ebd585216ec57012f37033da1fe66f"
+          }
+        },
+        {
+          "client_id": "737014015308-p3i4dgehg3i0659ugvsdbjhs265tdkgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6svW5t1x779MmBux4WV_GrZIa-9JKUDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737014015308-p3i4dgehg3i0659ugvsdbjhs265tdkgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
